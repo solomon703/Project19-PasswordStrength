@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color: black;
+}
+.container{
+  margin-top: 20%;
+  margin-left: 20%;
+  background-color: #333;
+  width: 500px;
+  display: flex;
+  /* border-radius: 26px; */
+  position: relative;
+  padding: 5px;
+}
+.container #pass{
+  width: 480px;
+  outline: none;
+  border:none;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 20px;
+  background: #333;
+  color: #fff;
+}
+.container img{
+  outline: none;
+  height:66px;
+  border:none;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  
+}
+.container img:hover{
+  border-radius: 80%;
+  background-color: #333;
+  transform:scale(1.0)
+}
+ #message{
+  color: #fff;
+  margin-left: 21%;
+  font-size: 25px;
+}
+
+@media(max-width:400px){
+  .container{
+    margin-top: 70%;
+    margin-left: 5%;
+    background-color: #333;
+    width: 350px;
+    display: flex;
+    border-radius: 6px;
+    position: relative;
+    padding: 5px;
+  }
+  .container #pass{
+    width: 270px;
+    outline: none;
+    border:none;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 20px;
+    background: #333;
+    color: #fff;
+  }
+  .container img{
+    outline: none;
+    /* height:66px; */
+    width: 70px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    
+  }
+  .container img:hover{
+    border-radius: 80%;
+    background-color: #333;
+    transform:scale(1.0)
+  }
+   #message{
+    color: #fff;
+    margin-left: 21%;
+    font-size: 25px;
+  }
+  
+}
